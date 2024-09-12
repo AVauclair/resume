@@ -1,42 +1,69 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
   text-align: center;
+  height: 100%;
+  width: 100%;
+  position: relative;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+body {
+  height: 1px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+li {
+  list-style: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+li a {
+  color: white;
+  cursor: pointer;
 }
 
-.card {
-  padding: 2em;
+.menu {
+  top: 0px;
+  right: 0px;
+  background-color: gray;
+  width: 100%;
+  padding: 10px;
 }
 
-.read-the-docs {
-  color: #888;
+.menu li {
+  display: inline;
+  padding: 30px;
+  font-size: large;
+}
+
+.home {
+  display: flex;
+  width: 100%;
+  height: 60%;
+  background-image: url("assets/mountains.jpg");
+  background-position-y: 30%;
+  color: white;
+}
+
+.person {
+  margin: 40px 50px 40px 130px;
+  padding: 40px 10px 40px 10px;
+  border: 2px solid white;
+  font-size: large;
+  font-weight: bold;
+}
+
+.avatar {
+  width: 20%;
+  border-radius: 300px;
+}
+
+.about {
+  margin: 50px 0 0 250px;
+}
+
+.about h3 {
+  font-size: 35px;
+  margin: 5%;
+}
+
+.info {
+  font-weight: bold;
+  text-align: left;
 }
