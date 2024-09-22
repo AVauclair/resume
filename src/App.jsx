@@ -1,5 +1,10 @@
 import { useState } from "react";
 import avatar from "/src/assets/avatar.jpg";
+import htmlICO from "/src/assets/html.png";
+import cssICO from "/src/assets/css.png";
+import typescriptICO from "/src/assets/typescript.png";
+import reactICO from "/src/assets/react.png";
+import reduxICO from "/src/assets/redux.png";
 import "./App.css";
 
 function App() {
@@ -16,23 +21,33 @@ function App() {
             <a>Образование</a>
           </li>
           <li>
+            <a>Стаж</a>
+          </li>
+          <li>
             <a>Проекты</a>
           </li>
         </nav>
       </header>
       <main>
         <div className="home">
-          <div className="person">
-            <img src={avatar} className="avatar"></img>
-            <div>Давид Сироджов</div>
-            <div>React-разработчик</div>
+          <div className="personContainer">
+            <div className="person">
+              <img src={avatar} className="avatar"></img>
+              <div className="personInfo">
+                <div>Давид Сироджов</div>
+                <div>React-разработчик</div>
+              </div>
+            </div>
           </div>
+
           <div className="about">
-            <h3>Обо мне</h3>
-            <div className="info">
-              <p>Возраст: 22</p>
-              <p>Навыки: HTML, CSS, TypeScript, React, Redux</p>
-              <p>Образование: техник-программист</p>{" "}
+            <h3 className="skills">Навыки</h3>
+            <div className="skillsImages">
+              <img src={htmlICO} />
+              <img src={cssICO} />
+              <img src={typescriptICO} />
+              <img src={reactICO} />
+              <img src={reduxICO} />
             </div>
           </div>
         </div>
