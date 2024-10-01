@@ -1,0 +1,14 @@
+.menu {
+  ul {
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    padding: 10px;
+  }
+
+  li {
+    padding-left: 4%;
+    font-size: large;
+    list-style: none;
+  }
+}

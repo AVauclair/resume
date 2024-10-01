@@ -1,0 +1,45 @@
+.home-section {
+  .home {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-image: url("./../../assets/mountains.jpg");
+    background-position-y: 30%;
+    color: white;
+    padding: 50px;
+    .person-container {
+      width: 35%;
+      .person {
+        /* width: 50%; */
+        border: 2px solid white;
+        padding: 5% 0% 5% 0%;
+        font-size: large;
+        font-weight: bold;
+        .person__avatar {
+          width: 25%;
+          border-radius: 300px;
+        }
+        .person__info {
+          font-size: 2vh;
+        }
+      }
+    }
+  }
+  .about {
+    padding-top: 2.5vw;
+    padding-left: 5vw;
+    .skills {
+      display: flex;
+      justify-content: center;
+      font-size: 4vh;
+    }
+    .skills__images {
+      padding-top: 1vw;
+      img {
+        width: 7vw;
+        /* height: 12vh; */
+        padding-left: 1vw;
+      }
+    }
+  }
+}

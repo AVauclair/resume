@@ -13,69 +13,9 @@ body {
   height: 100vh;
 }
 
-li a {
-  color: white;
-  cursor: pointer;
-}
-
-.menu {
-  display: flex;
-  justify-content: center;
-  background-color: gray;
-  padding: 10px;
-
-  li {
-    padding-left: 4%;
-    font-size: large;
-    list-style: none;
-  }
-}
-
-.home {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  background-image: url("assets/mountains.jpg");
-  background-position-y: 30%;
-  color: white;
-  padding: 50px;
-  .personContainer {
-    width: 30%;
-    background-color: aqua;
-    /* display: flex; */
-    border: 2px solid white;
-    .person {
-      background-color: pink;
-      padding: 5% 0% 5% 0%;
-      font-size: large;
-      font-weight: bold;
-      .avatar {
-        width: 15%;
-        border-radius: 300px;
-      }
-      .personInfo {
-      }
-    }
-  }
-}
-
-.about {
-  padding-left: 5%;
-  /* background-color: pink; */
-  .skills {
-    /* background-color: red; */
-    display: flex;
-    justify-content: center;
-    font-size: 200%;
-  }
-  .skillsImages {
-    padding-top: 3%;
-    /* background-color: black; */
-    img {
-      /* background-color: white; */
-      width: 100px;
-      height: 10vh;
-      padding-left: 1vw;
-    }
+li {
+  a {
+    color: white;
+    cursor: pointer;
   }
 }
